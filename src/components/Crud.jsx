@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 
 // import ENDPOINT and TOKEN from Github
-const ENDPOINT_API = import.meta.env.VITE_API_ENDPOINT;
-const MY_TOKEN = import.meta.env.VITE_JWT_SECRET;
+const ENDPOINT_API = "https://api.github.com/users";
+const MY_TOKEN =
+  "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";
 
 const Crud = () => {
   const [users, setUsers] = useState([]);
