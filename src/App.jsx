@@ -1,7 +1,8 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 // import components
-// import Create from "./components/Create";
 import Crud from "./components/Crud";
 const App = () => {
   return (
